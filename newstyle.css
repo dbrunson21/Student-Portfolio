@@ -31,6 +31,17 @@
     border-bottom-right-radius: 4px;
 }
 
+
+
+.subtitle h2 {
+    width: fit-content;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 4px;
+    background-color: darkseagreen; 
+    color: rgb(26, 97, 26);
+}
+
 nav {
 padding-right: 20px;
 }
@@ -72,12 +83,14 @@ main {
     width: 25%;
     text-align: end;
     margin-right: 60px;
+    margin-left: 200px;
     font-size: 50px;
 }
 
 .right-column {
     display: flex;
     flex-direction: column;
+    margin-right: 30px;
 }
 
 .image {
