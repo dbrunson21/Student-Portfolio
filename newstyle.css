@@ -11,35 +11,12 @@
     width: 100%;
 }
 
-.name {
+.name { /* heading color and container for list item elements */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 85px;
-    background-color:rgb(26, 97, 26);
-}
-
-.name h1 {
-    align-self: center;
-    color: darkgreen;
-    background-color: darkseagreen;
-    font-size: 35px;
-    margin: 10px 10px 10px 0px;
-    padding-left: 30px;
-    padding-right: 10px;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-}
-
-
-
-.subtitle h2 {
-    width: fit-content;
-    padding: 10px;
-    font-size: 25px;
-    border-radius: 4px;
-    background-color: darkseagreen; 
-    color: rgb(26, 97, 26);
+    background-color:darkgreen;
 }
 
 nav {
@@ -69,12 +46,50 @@ nav ul li a {
     }
 }
 
+.name h1 { /* Davonte Brunson */
+    align-self: center;
+    color: darkgreen;
+    background-color: darkseagreen;
+    font-size: 35px;
+    margin: 10px 10px 10px 0px;
+    padding-left: 30px;
+    padding-right: 10px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.image {
+    display: flex;
+    background-image:url(greenleaves.jpg); /* green leaves image set as a background */
+    height: 150px;
+    width: 100%;
+    justify-content: end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 5px solid darkgreen;
+}
+
+.banner { /* uses the background image as a parent "Stay origional; stay ambitious" subheading */
+    background-color: darkseagreen;
+    color: darkgreen;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 70px 50px;
+}
+
 main {
-    margin-top: 100px;
+    margin-top: 85px;
     padding:20px;
 }
 
 .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-2 {
     display: flex;
     flex-direction: row;
 }
@@ -85,19 +100,38 @@ main {
     margin-right: 60px;
     margin-left: 200px;
     font-size: 50px;
+    border-right: 5px solid darkgreen;
+    padding-right: 25px;
+}
+
+.row-2 h2 {
+    text-align: end;
+    margin: 60px 60px 0px 220px;
+    font-size: 50px;
+    border-right: 5px solid darkgreen;
+    padding-right: 25px;
+    
+}
+
+.Resume { 
+display: flexbox;
+margin-top: 60px;
+margin-left: 200px;
+background-color: darkgreen; 
+padding: 4px;
+box-shadow: 10px 10px 20px;
+width: 900px;
 }
 
 .right-column {
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
+    margin-right: 40px;
+    font-size: 20px;
 }
 
-.image {
-    height: 150px;
-    width: 100%;
-    background-image:url(greenleaves.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+
+
+
+
+
