@@ -11,16 +11,17 @@
     width: 100%;
 }
 
-.name { /* heading color and container for list item elements */
+.name {
+    /* heading color and container for list item elements */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 85px;
-    background-color:darkgreen;
+    background-color: darkgreen;
 }
 
 nav {
-padding-right: 20px;
+    padding-right: 20px;
 }
 
 nav ul {
@@ -39,14 +40,16 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: darkseagreen;
-    border-bottom:3px solid transparent;
+    border-bottom: 3px solid transparent;
     padding: 8px 12px;
+
     &:hover {
         border-bottom-color: rgb(0, 55, 0);
     }
 }
 
-.name h1 { /* Davonte Brunson */
+.name h1 {
+    /* Davonte Brunson */
     align-self: center;
     color: darkgreen;
     background-color: darkseagreen;
@@ -60,7 +63,8 @@ nav ul li a {
 
 .image {
     display: flex;
-    background-image:url(greenleaves.jpg); /* green leaves image set as a background */
+    background-image: url(greenleaves.jpg);
+    /* green leaves image set as a background */
     height: 150px;
     width: 100%;
     justify-content: end;
@@ -70,7 +74,8 @@ nav ul li a {
     border-bottom: 5px solid darkgreen;
 }
 
-.banner { /* uses the background image as a parent "Stay origional; stay ambitious" subheading */
+.banner {
+    /* uses the background image as a parent "Stay origional; stay ambitious" subheading */
     background-color: darkseagreen;
     color: darkgreen;
     height: fit-content;
@@ -81,7 +86,7 @@ nav ul li a {
 
 main {
     margin-top: 85px;
-    padding:20px;
+    padding: 20px;
 }
 
 .row {
@@ -110,17 +115,15 @@ main {
     font-size: 50px;
     border-right: 5px solid darkgreen;
     padding-right: 25px;
-    
+
 }
 
-.Resume { 
-display: flexbox;
-margin-top: 60px;
-margin-left: 200px;
-background-color: darkgreen; 
-padding: 4px;
-box-shadow: 10px 10px 20px;
-width: 900px;
+.Resume {
+    margin-top: 60px;
+    background-color: darkgreen;
+    padding: 4px;
+    box-shadow: 10px 10px 20px;
+    width: 60%;
 }
 
 .right-column {
@@ -129,9 +132,3 @@ width: 900px;
     margin-right: 40px;
     font-size: 20px;
 }
-
-
-
-
-
-
