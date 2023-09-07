@@ -42,7 +42,6 @@ nav ul li a {
     color: darkseagreen;
     border-bottom: 3px solid transparent;
     padding: 8px 12px;
-
     &:hover {
         border-bottom-color: rgb(0, 55, 0);
     }
@@ -84,6 +83,13 @@ nav ul li a {
     margin: 70px 50px;
 }
 
+.right-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
 main {
     margin-top: 85px;
     padding: 20px;
@@ -97,6 +103,27 @@ main {
 .row-2 {
     display: flex;
     flex-direction: row;
+}
+
+.row-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-3 h2 {
+    font-size: 50px;
+    border-right: 5px solid darkgreen;
+    padding-right: 25px;
+    margin-left: 95px;
+    margin-top: 10px;
+    height: fit-content;
+}
+
+.row-3 li a {
+    font-size: 30px;
+    color: forestgreen;
+    padding-left: 30px;
+    margin-left: 35px;
 }
 
 .row h2 {
@@ -118,17 +145,93 @@ main {
 
 }
 
-.Resume {
-    margin-top: 60px;
-    background-color: darkgreen;
-    padding: 4px;
-    box-shadow: 10px 10px 20px;
-    width: 60%;
+.projects {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.right-column {
+.Project-1 { /*Horiseon image is clickable!*/
     display: flex;
-    flex-direction: column;
-    margin-right: 40px;
-    font-size: 20px;
+    background-image: url(horiseon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 850px;
+    height: 800px;
+    margin-top: 60px;
+    text-decoration: none;
+    border: 5px solid forestgreen;
 }
+
+.Project-1 div {
+    background-color: forestgreen;
+    align-self: flex-end;
+    margin-bottom: 60px;
+    height: fit-content;
+    font-size: 40px;
+    color: darkseagreen;
+}
+
+.project-2 {
+    display: flex;
+    background-image: url(bassguitar.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 40%;
+    height: 150px;
+    margin-top: 60px;
+    text-decoration: none;
+    border: 5px solid forestgreen;
+}
+
+.project-2 div {
+    background-color: forestgreen;
+    align-self: flex-end;
+    margin-bottom: 30px;
+    height: fit-content;
+    font-size: 30px;
+    color: darkseagreen;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.project-3 {
+    display: flex;
+    background-image: url(DJ.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 40%;
+    height: 150px;
+    margin-top: 60px;
+    text-decoration: none;
+    margin-left: 65px;
+    border: 5px solid forestgreen;
+}
+
+.project-4 {
+    display: flex;
+    background-image: url(videogame.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 150px;
+    margin-top: 60px;
+    border: 5px solid forestgreen;
+}
+
+.project-5 {
+    display: flex;
+    background-image: url(food.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 150px;
+    margin-top: 60px;
+    margin-left: 65px;
+    border: 5px solid forestgreen;
+}
+
+
